@@ -1,0 +1,75 @@
+body{
+color: rgb(4, 24, 24);
+          background: linear-gradient(145deg, rgb(195, 173, 173), rgb(198, 198, 239), rgb(55, 60, 55));
+        text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.form-container{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 200px;
+}
+header {
+    background: linear-gradient(145deg,rgb(84, 53, 53), rgb(145, 145, 172), rgb(55, 60, 55));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+   border-radius: 25px;
+}
+footer{
+   background: linear-gradient(145deg,rgb(84, 53, 53), rgb(145, 145, 172), rgb(55, 60, 55));
+    color: white;
+    text-align: center;
+    padding: 10px;
+   position: flex;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   border: 3px solid black;
+   border-radius: 25px;
+   box-shadow: inset 0 0 10px rgba(10, 0, 0, 0.1);
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="number"],input[type="date"], input[type="tel"],input[type="address"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#href{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
